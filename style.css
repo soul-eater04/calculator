@@ -56,11 +56,11 @@ body,html{
     align-items: center;
     flex: 1;
     background-color: chocolate;
-    transition: background-color 0.3s ease; /* Add a transition for a smooth effect */
+    transition: background-color 0.3s ease;
 }
 
 .clear:hover , .delete:hover{
-    background-color: darkcyan; /* Change the background color on hover */
+    background-color: darkcyan;
 }
 
 .top-display , .bottom-display{
