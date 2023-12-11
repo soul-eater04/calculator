@@ -60,6 +60,7 @@ body,html{
 }
 
 .clear:hover , .delete:hover{
+    cursor: pointer;
     background-color: darkcyan;
 }
 

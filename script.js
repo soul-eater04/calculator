@@ -24,10 +24,12 @@ function addKeys(numpad){
             smallBox.style.fontSize = '32px';
             smallBox.addEventListener('click',(e) => keyClicked(e));
             smallBox.addEventListener('mouseover', function () {
+                smallBox.style.cursor = 'pointer';
                 smallBox.style.backgroundColor = 'darkgray';
             });
 
             smallBox.addEventListener('mouseout', function () {
+                smallBox.style.cursor = '';
                 smallBox.style.backgroundColor = 'lightgray';
             });
 
